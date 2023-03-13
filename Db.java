@@ -3,9 +3,9 @@ import java.sql.*;
 import javax.swing.*;
 public class db {
     
+    //Db
     
-    
-    Connection conn=null;
+         Connection conn=null;
     public static Connection java_db(){
         
         try{
