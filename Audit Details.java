@@ -6,11 +6,11 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
-import javax.swing.*;
+ import javax.swing.*;
 import net.proteanit.sql.DbUtils;
-public class Audit_details extends javax.swing.JFrame {
-Connection conn=null;
-ResultSet rs=null;
+ public class Audit_details extends javax.swing.JFrame {
+ Connection conn=null;
+ ResultSet rs=null;
 PreparedStatement pst=null;
     public Audit_details() {
         initComponents();
